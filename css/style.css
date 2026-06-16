@@ -3,5 +3,75 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+ul ,ol{
+    list-style-type: none;
 }
 /* all common css style end */
+/* header part start */
+#header{
+    margin: 34px 0px;
+}
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerMenu ul{
+    display: flex;
+    gap: 42px;
+}
+.headerMenu ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: #181818;
+    transition: .5s;
+}
+.headerMenu ul li:hover{
+    color: #5956E8;
+}
+.headerButton button{
+    padding: 13px 24px;
+    border: 0;
+    background: #5956E8;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+/* header part start */
+/* banner style start */
+#banner{
+    background: #5956E8;
+    padding: 182px;
+}
+.bannerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerleft h1{
+    color: #FFFEFE;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    width: 501px;
+}
+.bannerleft p{
+    color: #FFFEFE;
+    line-height: 27px;
+    width: 542px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.bannerButton button{
+    padding: 13px 22px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 0;
+}
+/* banner style end */
