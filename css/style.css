@@ -12,6 +12,11 @@
 ul ,ol{
     list-style-type: none;
 }
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
 /* all common css style end */
 /* header part start */
 #header{
@@ -42,7 +47,7 @@ ul ,ol{
     color: #FFFFFF;
     border-radius: 10px;
 }
-/* header part start */
+/* header part end */
 /* banner style start */
 #banner{
     background: #5956E8;
@@ -75,3 +80,86 @@ ul ,ol{
     border: 0;
 }
 /* banner style end */
+/* service part start */
+#servicePart{
+    padding: 100px 0;
+}
+.servicePartTop{
+    text-align: center;
+}
+.servicePartTop h3{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.servicePartTop p{
+    color: rgba(24, 24, 24, 0.7);
+    line-height: 27px;
+    font-size: 16px;
+    width: 542px;
+    margin: 0 auto;
+}
+.servicePartButtom{
+
+}
+.serviceFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 63px 48px;
+    border: 1px solid#E3E3E3;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .3s;
+}
+.card:hover{
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.08)
+}
+.card:hover .cardImg svg ,.serviceFlex .card .cardImg .svg:hover{
+    fill: #5956E8;
+    stroke: #fff;
+}
+.card h4{
+    color: #181818;
+    font-size: 25px;
+    font-weight: 700px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.card p{
+    color: rgba(24, 24, 24, 0.7);
+    line-height: 27px;
+    width: 274px;
+}
+/* service part start */
+/* portfolio scc style start */
+#portfolioPart{
+    padding: 100px 0;
+}
+.portfolioPartTop{
+    text-align: center;
+}
+.portfolioPartTop h3{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.portfolioPartTop p{
+    color: rgba(24, 24, 24, 0.7);
+    line-height: 27px;
+    font-size: 16px;
+    width: 542px;
+    margin: 0 auto;
+}
+.portfoliocard{
+    padding: 187px 20px 19px 20px;
+    border: 1px solid#E3E3E3;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .3s;
+}
+
+/* portfolio css style end */
