@@ -98,6 +98,7 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 27px;
     font-size: 16px;
     width: 542px;
+    
     margin: 0 auto;
 }
 .servicePartButtom{
@@ -135,31 +136,73 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* service part start */
 /* portfolio scc style start */
-#portfolioPart{
+#portfolio{
     padding: 100px 0;
+    background: #FFFFFF;
 }
-.portfolioPartTop{
+.portfolioTop h3{
     text-align: center;
-}
-.portfolioPartTop h3{
-    color: #181818;
-    font-size: 40px;
-    font-weight: 700;
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 40px;
 }
-.portfolioPartTop p{
-    color: rgba(24, 24, 24, 0.7);
-    line-height: 27px;
-    font-size: 16px;
-    width: 542px;
-    margin: 0 auto;
+.portfolioTop p{
+   font-size: 16px;
+   width: 542px;
+   margin: 0 auto;
+   line-height: 27px;
+   text-align: center;
 }
-.portfoliocard{
-    padding: 187px 20px 19px 20px;
-    border: 1px solid#E3E3E3;
+.portfolioButtom{
+   
+}
+.serviceFlex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.portfolioCard{
+    width: 270px;
+    position: relative;
+    top: 50px;
+}
+.portfolioImg{
+    width: 100%;
+   
+}
+.portfolio-overlay{
+    width: 230px;
+    height: 113px;
+    position: absolute;
     border-radius: 10px;
-    margin-top: 50px;
-    transition: .3s;
-}
+    left: 20px;
+    bottom: 19px;
+    background-color: rgba(94, 93, 240, 0.9);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
 
+}
+.portfolio-overlay h4{
+   font-size: 20px;
+   font-weight: 600;
+   position: absolute;
+   text-align: center;
+   padding-top: 25px;
+   line-height: 27px;
+   transition: 0.4s;
+   color: #FFFFFF;
+   padding-left: 40px;
+}
+.portfolio-overlay a{
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 62px;
+    padding-left:55px ;
+}
+.portfolioCard:hover .portfolio-overlay{
+   opacity: 1;
+}
 /* portfolio css style end */
